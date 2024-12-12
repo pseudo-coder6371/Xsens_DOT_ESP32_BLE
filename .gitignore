@@ -1,0 +1,29 @@
+
+# Ignore build and output directories
+/build/
+/out/
+/bin/
+/obj/
+
+/# Ignore compiled object files and libraries
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dll
+*.class
+*.log
+
+# Ignore VSCode workspace settings and logs
+.vscode/
+.history/
+.pio/
+lib/
+test/
+CMakeLists.txt
+partitions.csv
+
+# Ignore platform-specific files
+.DS_Store
+Thumbs.db
